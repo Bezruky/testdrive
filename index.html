@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <title>Лаборатория ТЕСТ-ДРАЙВ</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <div class="header">
+        <div class="header__top">
+            <div class="logoandlist">
+                <div class="header__logo">
+                    Лаборатория <br><span>тест-драйв</span>
+                </div>
+            </div>
+            <div class="header__info">
+                <div class="adress">г. Москва, ул. Пушкина 20, офис 3</div>
+                <div class="tel"><a href="tel:8999999999">8 (999) 99-99-99</a></div>
+                <div class="wu"><svg height="512pt" viewBox="-1 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m10.894531 512c-2.875 0-5.671875-1.136719-7.746093-3.234375-2.734376-2.765625-3.789063-6.78125-2.761719-10.535156l33.285156-121.546875c-20.722656-37.472656-31.648437-79.863282-31.632813-122.894532.058594-139.941406 113.941407-253.789062 253.871094-253.789062 67.871094.0273438 131.644532 26.464844 179.578125 74.433594 47.925781 47.972656 74.308594 111.742187 74.289063 179.558594-.0625 139.945312-113.945313 253.800781-253.867188 253.800781 0 0-.105468 0-.109375 0-40.871093-.015625-81.390625-9.976563-117.46875-28.84375l-124.675781 32.695312c-.914062.238281-1.84375.355469-2.761719.355469zm0 0"
+                            fill="#e5e5e5" />
+                        <path
+                            d="m10.894531 501.105469 34.46875-125.871094c-21.261719-36.839844-32.445312-78.628906-32.429687-121.441406.054687-133.933594 109.046875-242.898438 242.976562-242.898438 64.992188.027344 125.996094 25.324219 171.871094 71.238281 45.871094 45.914063 71.125 106.945313 71.101562 171.855469-.058593 133.929688-109.066406 242.910157-242.972656 242.910157-.007812 0 .003906 0 0 0h-.105468c-40.664063-.015626-80.617188-10.214844-116.105469-29.570313zm134.769531-77.75 7.378907 4.371093c31 18.398438 66.542969 28.128907 102.789062 28.148438h.078125c111.304688 0 201.898438-90.578125 201.945313-201.902344.019531-53.949218-20.964844-104.679687-59.09375-142.839844-38.132813-38.160156-88.832031-59.1875-142.777344-59.210937-111.394531 0-201.984375 90.566406-202.027344 201.886719-.015625 38.148437 10.65625 75.296875 30.875 107.445312l4.804688 7.640625-20.40625 74.5zm0 0"
+                            fill="#fff" />
+                        <path
+                            d="m19.34375 492.625 33.277344-121.519531c-20.53125-35.5625-31.324219-75.910157-31.3125-117.234375.050781-129.296875 105.273437-234.488282 234.558594-234.488282 62.75.027344 121.644531 24.449219 165.921874 68.773438 44.289063 44.324219 68.664063 103.242188 68.640626 165.898438-.054688 129.300781-105.28125 234.503906-234.550782 234.503906-.011718 0 .003906 0 0 0h-.105468c-39.253907-.015625-77.828126-9.867188-112.085938-28.539063zm0 0"
+                            fill="#51cd5e" />
+                        <g fill="#fff">
+                            <path
+                                d="m10.894531 501.105469 34.46875-125.871094c-21.261719-36.839844-32.445312-78.628906-32.429687-121.441406.054687-133.933594 109.046875-242.898438 242.976562-242.898438 64.992188.027344 125.996094 25.324219 171.871094 71.238281 45.871094 45.914063 71.125 106.945313 71.101562 171.855469-.058593 133.929688-109.066406 242.910157-242.972656 242.910157-.007812 0 .003906 0 0 0h-.105468c-40.664063-.015626-80.617188-10.214844-116.105469-29.570313zm134.769531-77.75 7.378907 4.371093c31 18.398438 66.542969 28.128907 102.789062 28.148438h.078125c111.304688 0 201.898438-90.578125 201.945313-201.902344.019531-53.949218-20.964844-104.679687-59.09375-142.839844-38.132813-38.160156-88.832031-59.1875-142.777344-59.210937-111.394531 0-201.984375 90.566406-202.027344 201.886719-.015625 38.148437 10.65625 75.296875 30.875 107.445312l4.804688 7.640625-20.40625 74.5zm0 0" />
+                            <path
+                                d="m195.183594 152.246094c-4.546875-10.109375-9.335938-10.3125-13.664063-10.488282-3.539062-.152343-7.589843-.144531-11.632812-.144531-4.046875 0-10.625 1.523438-16.1875 7.597657-5.566407 6.074218-21.253907 20.761718-21.253907 50.632812 0 29.875 21.757813 58.738281 24.792969 62.792969 3.035157 4.050781 42 67.308593 103.707031 91.644531 51.285157 20.226562 61.71875 16.203125 72.851563 15.191406 11.132813-1.011718 35.917969-14.6875 40.976563-28.863281 5.0625-14.175781 5.0625-26.324219 3.542968-28.867187-1.519531-2.527344-5.566406-4.046876-11.636718-7.082032-6.070313-3.035156-35.917969-17.726562-41.484376-19.75-5.566406-2.027344-9.613281-3.035156-13.660156 3.042969-4.050781 6.070313-15.675781 19.742187-19.21875 23.789063-3.542968 4.058593-7.085937 4.566406-13.15625 1.527343-6.070312-3.042969-25.625-9.449219-48.820312-30.132812-18.046875-16.089844-30.234375-35.964844-33.777344-42.042969-3.539062-6.070312-.058594-9.070312 2.667969-12.386719 4.910156-5.972656 13.148437-16.710937 15.171875-20.757812 2.023437-4.054688 1.011718-7.597657-.503906-10.636719-1.519532-3.035156-13.320313-33.058594-18.714844-45.066406zm0 0"
+                                fill-rule="evenodd" />
+                        </g>
+                    </svg></div>
+                <div class="call">Заказать завонок</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="header__bottom">
+        <div class="header__menu">
+        <ul>
+            <li class="menu-item"><a href="#price">Стоимость</a></li>
+            <li class="menu-item"><a href="#services">Услуги</a></li>
+            <li class="menu-item"><a href="#portfolio">Портфолио</a></li>
+            <li class="menu-item"><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+    </div>
+    
+</header>
+        <main>
+            <div class="b1">
+                <div class="container">
+                    <div class="b1__content">
+                        <div class="b1__subtitle">Поможем оформить изменения ТС в ГИБДД</div>
+                        <div class="b1__title"><span>
+                                <p>Регистрация</p>
+                            </span> <span>
+                                <p>переоборудований</p>
+                            </span> автомобилей <p>в Москве</p>
+                        </div>
+                        <div class="b1__form">
+                            <div class="b1__f_title">Уже внесли изменения в авто и нужно срочно их зарегистрировать? Мы
+                                сможем помочь!</div>
+                            <form class="form-1" action="#">
+                                <div class="form-1__phone">
+                                    <input type="tel" name="phone" placeholder="+7 (___) ___-__-__">
+                                </div>
+                                <div class="form-1__btn">
+                                    <button>Оставить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="b1__advantage">
+                    <div class="b1__adv-body">
+                        <div class="b1__adv_item">
+                            <div class="adv_item-img"><img src="img/b1/insurance.png" alt=""></div>
+                            <div class="adv_item-text">Договор со 100% гарантией результата</div>
+                        </div>
+                        <div class="b1__adv_item">
+                            <div class="adv_item-img"><img src="img/b1/writing.png" alt=""></div>
+                            <div class="adv_item-text">Вносим 470+ видов изменений в ТС</div>
+                        </div>
+                        <div class="b1__adv_item">
+                            <div class="adv_item-img"><img src="img/b1/handshake.png" alt=""></div>
+                            <div class="adv_item-text">Регистрируем «под ключ»</div>
+                        </div>
+                        <div class="b1__adv_item">
+                            <div class="adv_item-img"><img src="img/b1/traffic.png" alt=""></div>
+                            <div class="adv_item-text">Все категории транспортных средств</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="b2" id="services">
+                <div class="b2__container">
+                    <div class="b2__title"><span>Чаще всего</span> регистрируют изменения</div>
+                    <div class="b2__slider">
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 17 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 6 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 12 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 500 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 17 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 17 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 17 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                        <div class="b2__slider-item">
+                            <div class="b2__s-i-title">Оформлено<span> 17 000 раз</span></div>
+                            <div class="b2__s-i-content">
+                                <div class="b2__s-i-picture"><img src="img/b2/item-slider.jpg" alt=""></div>
+                                <div class="b2__s-i-text">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b3">
+                <div class="b3__images">
+                    <div class="b3__img-1"><img src="img/b3/b3__car.png" alt=""></div>
+                    <div class="b3__img-2"><img src="img/b3/b3__figure1.png" alt=""></div>
+                    <div class="b3__img-3"><img src="img/b3/b3__figure2.png" alt=""></div>
+                </div>
+                <div class="b3__body">
+                    <div class="b3__content">
+                        <div class="b3__title">Оформили уже <br><span>более 5000 изменений</span></div>
+                        <div class="b3__text">Мы предоставляем полный комплекс услуг по регистрации изменений в
+                            конструкции ТС: <b>оформляем документы, сопровождаем вас
+                                в ГИБДД</b> или проходим всю процедуру за вас <b>«под ключ»</b>. Благодаря
+                            собственной
+                            лаборатории и государственной аккредитации
+                            мы можем узаконить даже <b>самые сложные изменения.</b> У нас есть все <b>необходимые
+                                шаблоны документов и государственные бланки</b>
+                            для получения отметки о переоборудовании в ПТС.</div>
+                        <div class="b3__com">Узаконим даже самые сложные изменения</div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="b4">
+                <div class="b4__body">
+                    <div class="b4__title">Оставляйте заявку, чтобы провести <span>бесплатную техническую
+                            экспертизу</span> и узнать:</div>
+                    <div class="b4__content">
+                        <div class="b4__spec">
+                            <div class="spec__photo"><img src="img/b4/spec.png" alt=""></div>
+                            <div class="spec__text">Технический специалист по оформлению переоборудования</div>
+                            <div class="spec__name">Пётр Петров</div>
+                        </div>
+                        <ul class="b4__points">
+                            <li class="point-item">Стоимость оформления документов</li>
+                            <li class="point-item">Точные сроки регистрации</li>
+                            <li class="point-item">Этапы и нюансы взаимодействия с ГИБДД</li>
+                            <li class="point-item">Особенности регистрации этого вида изменения в Москве</li>
+                        </ul>
+                        <div class="b4__form">
+                            <form action="">
+                                <div class="b4__f__phone">
+                                    <input type="tel" name="phone" placeholder="+7 (___) ___-__-__">
+                                </div>
+                                <div class="b4__f__textarea">
+                                    <textarea name="text" id="" cols="30" rows="10"
+                                        placeholder="Опишите изменения, которые вы хотите зарегистрировать марку и модель автомобиля"></textarea>
+                                </div>
+                                <div class="b4__f__btn">
+                                    <button>Узнать стоимость</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b5">
+                <div class="container">
+                    <div class="b5__content">
+                        <div class="b5__title"><span>Оформляем</span> все необходимые документы или регистрируем «под
+                            ключ</div>
+                        <div class="b5__body">
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Заключение предварительной тех. экспертизы</div>
+                            </div>
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Заявление- декларацию с перечнем вномимых изменений</div>
+                            </div>
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Сертификаты СТО на оборудование и работы</div>
+                            </div>
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Договор на проведенные работы СТО</div>
+                            </div>
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Протокол проверки безопасности ТС с внесенными изменениями
+                                </div>
+                            </div>
+                            <div class="b5__body-item">
+                                <div class="b5__b-i-img"><img src="img/b5/b5-doc2.png" alt=""></div>
+                                <div class="b5__b-i-text">Заявление на выдачу СКТС в ГИБДД</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b6">
+                <div class="b6__bgc">
+                    <div class="container">
+                        <div class="b6__content">
+                            <div class="b6__scorer">
+                                <div class="b6__title">Получи заявление бесплатно прямо сейчас!</div>
+                                <div class="b6__score">
+                                    <div class="numbers">
+                                        <div class="number">0</div>
+                                        <div class="number">0</div>
+                                        <div class="number">0</div>
+                                        <div class="number">5</div>
+                                    </div>
+                                </div>
+                                <div class="b6__subtitle">Осталось<br> бесплатных заявлений</div>
+                            </div>
+                            <div class="b6__form">
+                                <div class="b6__form-title">Ежедневно оформляем <span>5</span> заявлений о
+                                    переоборудовании в ГИБДД
+                                    совершенно БЕСПЛАТНО, успей оставить заявку!</div>
+                                <form action="">
+                                    <div class="b6__f__phone">
+                                        <input type="tel" name="phone" placeholder="+7 (___) ___-__-__">
+                                    </div>
+                                    <div class="b6__f__btn">
+                                        <button>Оставить заявку</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b7">
+                <div class="container">
+                    <div class="b7__content">
+                        <div class="b7__title">Почему нам <span>можно доверять? </span></div>
+                        <div class="b7__video-btn">Видео-презентация о компании</div>
+                        <div class="b7__subtitle">Несколько цифр лично о нас</div>
+                        <div class="b7__number-items">
+                            <div class="b7-item">
+                                <div class="b7-i-titile">7 лет</div>
+                                <div class="b7-i-text">колоссальный опыт на рынке переоборудований</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">11 филиалов</div>
+                                <div class="b7-i-text">постоянно масштабируем и наращиваем связи в регионах России</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">30 сотрудников</div>
+                                <div class="b7-i-text">наши эксперты всегда в курсе всех нововведений и законов</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">с 2020 года</div>
+                                <div class="b7-i-text">статус аккредитованной лаборатории</div>
+                            </div>
+                        </div>
+                        <div class="b7__subtitle">...и немного цифр о наших клиентах</div>
+                        <div class="b7__number-items">
+                            <div class="b7-item">
+                                <div class="b7-i-titile">6000+</div>
+                                <div class="b7-i-text">проектов уже узаконили в ГИБДД</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">1000+</div>
+                                <div class="b7-i-text">отзывов от довольных заказчиков</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">каждый 3 клиент</div>
+                                <div class="b7-i-text">приходит к нам по рекомендации</div>
+                            </div>
+                            <div class="b7-item">
+                                <div class="b7-i-titile">3000</div>
+                                <div class="b7-i-text">фото собрано в нашем портфолио в социальных сетях</div>
+                            </div>
+                        </div>
+                        <div class="b7__botton-info">
+                            <div class="b7__b-i-img"><img src="img/b7/stamp.png" alt=""></div>
+                            <div class="b7__b-i-text">Работаем как <b>с физическими лицами</b>, так и <b>с юридическими
+                                    лицами</b>
+                                (компаниями, организациями и индивидуальными предпринимателями). <b>Предоставляем полный
+                                    пакет документов</b>, чтобы вы были уверены в надёжности нашей компании и юридчески
+                                защищены
+                                законом</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b8" id="price">
+                <div class="container">
+                    <div class="b8__content">
+                        <div class="b8__title"><span>Стоимость</span> регистрации изменений ТС</div>
+                        <div class="b8__body">
+                            <div class="b8__item">
+                                <div class="b8__i-title">Минимальный пакет</div>
+                                <div class="b8__i-price">От 4 900 до 13 900 ₽</div>
+                                <div class="b8__i-subtitle">Подойдет для самостоятельной регистрации несложных
+                                    переоборудований в ГИБДД</div>
+                                <div class="b8__i-text">Включает в себя пакет документов от аккредитованной лаборатори
+                                </div>
+                                <ul class="b8__i-list">
+                                    <li>Заключение</li>
+                                    <li>Протокол</li>
+                                </ul>
+                            </div>
+                            <div class="b8__item-main">
+                                <div class="b8__i-title-main">Полный пакет</div>
+                                <div class="b8__i-price-main">От 6 900 до 25 900 ₽</div>
+                                <div class="b8__i-subtitle">Самый популярный и удобный формат сотрудничества.<br> Вам
+                                    останется только посетить ГИБДД</div>
+                                <div class="b8__i-text">Включает в себя пакет документов от аккредитованной лаборатори
+                                </div>
+                                <ul class="b8__i-list">
+                                    <li>Заключение</li>
+                                    <li>Протокол</li>
+                                    <li>Заявление-декларация</li>
+                                    <li>Сертификаты СТО</li>
+                                    <li>Заявления в ГИБДД</li>
+                                </ul>
+                                <div class="b8__i-notification">Только в ОКТЯБРЕ в ПОДАРОК диагностическая карта</div>
+                            </div>
+                            <div class="b8__item">
+                                <div class="b8__i-title">Тариф "Под ключ"</div>
+                                <div class="b8__i-price">От 44 000 ₽</div>
+                                <div class="b8__i-subtitle">Максимально комфортный тариф, минимум вашего времени и
+                                    участия.</div>
+                                <div class="b8__i-text">Включает в себя все необходимые документы из полного тарифа
+                                </div>
+                                <ul class="b8__i-list">
+                                    <li>Оплату гос. пошлин</li>
+                                    <li>Посещение всех инстанций за вас!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b9">
+                <div class="b9__content">
+                    <div class="b9__form-title">Экспресс-расчет стоимости</div>
+                    <form class="b9__form" action="#">
+                        <div class="form__data">
+                            <div class="b9__f-name">
+                                <input type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="b9__f-tel">
+                                <input type="text" name="name" placeholder="+7 (___) ___-__-__">
+                            </div>
+                        </div>
+                        <div class="b9__f-textarea">
+                            <textarea name="textarea" id="" cols="30" rows="10"
+                                placeholder="Опишите изменения в ТС"></textarea>
+                        </div>
+                        <div class="b9__f-send">
+                            <div class="b9__f-bnt">
+                                <button>Узнать стоимость</button>
+                            </div>
+                            <div class="b9__f-checkbox active">
+                                <input type="checkbox" name="notific" if="notific" value="yes" checked="checked">
+                                <label for="notofic"><span>Я ознакомлен и принимаю условия пользовательского соглашения
+                                        и
+                                        согласен с <a href="#">условиями обработки персональных
+                                            данных</a></span></label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="b10">
+                <div class="container">
+                    <div class="b10__content">
+                        <div class="b10__title">А что будет, <span>если не зарегистрировать?</span></div>
+                        <div class="b10__facts">
+                            <div class="b10-f-item">
+                                <div class="b10-f-i-num">1</div>
+                                <div class="b10-f-i-text">Штрафы при проверке от 500 рублей и до 30 000 рублей</div>
+                            </div>
+                            <div class="b10-f-item">
+                                <div class="b10-f-i-num">2</div>
+                                <div class="b10-f-i-text">Невозможно поставить на учет при купле-продаже</div>
+                            </div>
+                            <div class="b10-f-item">
+                                <div class="b10-f-i-num">3</div>
+                                <div class="b10-f-i-text">Могут снять транспортное средство с учета</div>
+                            </div>
+                        </div>
+                        <div class="b10__review">
+                            <div class="b10__review-content">
+                                <div class="b10__review-block">
+                                    <div class="b10__r-c-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tempora
+                                        cumque mollitia placeat sapiente repellendus nihil aut aspernatur nostrum
+                                        deleniti quod
+                                        dolorem, tempore vitae architecto eos adipisci in ratione consequatur ut id
+                                        incidunt
+                                        nemo. Tempora ipsum cumque quisquam, asperiores doloribus minima quis incidunt,
+                                        voluptates in nam consequatur maxime, itaque vero nisi?q</div>
+                                    <div class="b10__r-c-phrase">Доверьте процедуру профессионалам!</div>
+                                </div>
+                                <div class="b10__r-c-author">Руководитель «Название» в Москве<br> Иванов Иван
+                                </div>
+                            </div>
+                            <div class="b10__review-photo"><img src="img/b10/reviewer.png" alt=""></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="b11">
+                <div class="container">
+                    <div class="b11__content">
+                        <div class="b11__title">Остались вопросы</div>
+                        <div class="b11__info">
+                            <div class="b11__number">
+                                <div class="b11__text">Звоните на горячую линию</div>
+                                <div class="b11__n-num"><a href="tel:88172222222">8 (8172) 22-22-22</a></div>
+                            </div>
+                            <div class="b11__social">
+                                <div class="b11__text">Или напишите нам!</div>
+                                <div class="b11__btn">Написать в WhatsApp</div>
+                                <div class="b11__online b11__text">Мы онлайн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b12" id="portfolio">
+
+                <div class="b12__title">Самое большое <span>портфолио</span></div>
+                <div class="b12__slider-main">
+                    <div class="b12__slider-item">
+                        <div class="b12__slider-left">
+                            <div class="b12__slider-two">
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                            <div class="b12__slider-three">
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="b12__slider-right">
+                            <div class="b12__slider-title">Узаконили</div>
+                            <ul class="b12__slider-list">
+                                <li class="b12__slider-list-item">Передний силовой баннер;</li>
+                                <li class="b12__slider-list-item">Эксп. багажник;</li>
+                                <li class="b12__slider-list-item">Летсница;</li>
+                                <li class="b12__slider-list-item">Пороги;</li>
+                                <li class="b12__slider-list-item">Переоборудование салона;</li>
+                                <li class="b12__slider-list-item">Перенесена горловина топливного бака;</li>
+                            </ul>
+                            <div class="b12__slider-service">
+                                <div class="b12__slider-title">Услуга</div>
+                                <div class="b12__slider-text">Пакет «Минимальный»</div>
+                            </div>
+                            <div class="b12__slider-time">
+                                <div class="b12__slider-title">Сроки</div>
+                                <div class="b12__slider-text">Оформили за 2 недели</div>
+                            </div>
+                            <div class="b12__slider-title">Отзыв Владимира</div>
+                            <div class="b12__slider-review"><q>Обратился в компанию НЕКСТ для изменения в
+                                    конструкцию авто. Все необходимые документы сделаны были правильно и быстро. В ГИБДД
+                                    вопросов не было. Спасибо НЕКСТ.</q></div>
+                            <div class="b12__slider-btn">Хочу также</div>
+                        </div>
+                    </div>
+                    <div class="b12__slider-item">
+                        <div class="b12__slider-left">
+                            <div class="b12__slider-two">
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                            <div class="b12__slider-three">
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="b12__slider-right">
+                            <div class="b12__slider-title">Узаконили</div>
+                            <ul class="b12__slider-list">
+                                <li class="b12__slider-list-item">Передний силовой баннер;</li>
+                                <li class="b12__slider-list-item">Эксп. багажник;</li>
+                                <li class="b12__slider-list-item">Летсница;</li>
+                                <li class="b12__slider-list-item">Пороги;</li>
+                                <li class="b12__slider-list-item">Переоборудование салона;</li>
+                                <li class="b12__slider-list-item">Перенесена горловина топливного бака;</li>
+                            </ul>
+                            <div class="b12__slider-service">
+                                <div class="b12__slider-title">Услуга</div>
+                                <div class="b12__slider-text">Пакет «Минимальный»</div>
+                            </div>
+                            <div class="b12__slider-time">
+                                <div class="b12__slider-title">Сроки</div>
+                                <div class="b12__slider-text">Оформили за 2 недели</div>
+                            </div>
+                            <div class="b12__slider-title">Отзыв Владимира</div>
+                            <div class="b12__slider-review">«Обратился в компанию НЕКСТ для изменения в
+                                конструкцию авто. Все необходимые документы сделаны были правильно и быстро. В ГИБДД
+                                вопросов не было. Спасибо НЕКСТ.»</div>
+                            <div class="b12__slider-btn">Хочу также</div>
+                        </div>
+                    </div>
+                    <div class="b12__slider-item">
+                        <div class="b12__slider-left">
+                            <div class="b12__slider-two">
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                            <div class="b12__slider-three">
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="b12__slider-right">
+                            <div class="b12__slider-title">Узаконили</div>
+                            <ul class="b12__slider-list">
+                                <li class="b12__slider-list-item">Передний силовой баннер;</li>
+                                <li class="b12__slider-list-item">Эксп. багажник;</li>
+                                <li class="b12__slider-list-item">Летсница;</li>
+                                <li class="b12__slider-list-item">Пороги;</li>
+                                <li class="b12__slider-list-item">Переоборудование салона;</li>
+                                <li class="b12__slider-list-item">Перенесена горловина топливного бака;</li>
+                            </ul>
+                            <div class="b12__slider-service">
+                                <div class="b12__slider-title">Услуга</div>
+                                <div class="b12__slider-text">Пакет «Минимальный»</div>
+                            </div>
+                            <div class="b12__slider-time">
+                                <div class="b12__slider-title">Сроки</div>
+                                <div class="b12__slider-text">Оформили за 2 недели</div>
+                            </div>
+                            <div class="b12__slider-title">Отзыв Владимира</div>
+                            <div class="b12__slider-review">«Обратился в компанию НЕКСТ для изменения в
+                                конструкцию авто. Все необходимые документы сделаны были правильно и быстро. В ГИБДД
+                                вопросов не было. Спасибо НЕКСТ.»</div>
+                            <div class="b12__slider-btn">Хочу также</div>
+                        </div>
+                    </div>
+                    <div class="b12__slider-item">
+                        <div class="b12__slider-left">
+                            <div class="b12__slider-two">
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-two-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                            <div class="b12__slider-three">
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b12/slider-img.png" alt=""></div>
+                                <div class="b12__slider-three-item"><img src="img/b4/spec.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="b12__slider-right">
+                            <div class="b12__slider-title">Узаконили</div>
+                            <ul class="b12__slider-list">
+                                <li class="b12__slider-list-item">Передний силовой баннер;</li>
+                                <li class="b12__slider-list-item">Эксп. багажник;</li>
+                                <li class="b12__slider-list-item">Летсница;</li>
+                                <li class="b12__slider-list-item">Пороги;</li>
+                                <li class="b12__slider-list-item">Переоборудование салона;</li>
+                                <li class="b12__slider-list-item">Перенесена горловина топливного бака;</li>
+                            </ul>
+                            <div class="b12__slider-service">
+                                <div class="b12__slider-title">Услуга</div>
+                                <div class="b12__slider-text">Пакет «Минимальный»</div>
+                            </div>
+                            <div class="b12__slider-time">
+                                <div class="b12__slider-title">Сроки</div>
+                                <div class="b12__slider-text">Оформили за 2 недели</div>
+                            </div>
+                            <div class="b12__slider-title">Отзыв Владимира</div>
+                            <div class="b12__slider-review">«Обратился в компанию НЕКСТ для изменения в
+                                конструкцию авто. Все необходимые документы сделаны были правильно и быстро. В ГИБДД
+                                вопросов не было. Спасибо НЕКСТ.»</div>
+                            <div class="b12__slider-btn">Хочу также</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="b13" id="contacts">
+                <div class="b13__content">
+                    <div class="b13__body">
+                        <div class="b13__title">Наши <span>контакты</span></div>
+                        <div class="b13__num">8 (999) 99-99-99</div>
+                        <div class="b13__mail">email@mail.com</div>
+                        <div class="b13__addres">г. Москва, ул. Пушкина 20, офис 3</div>
+                        <div class="b13__social">
+                            <img src="img/b13/s_1.png" alt="">
+                            <img src="img/b13/s_2.png" alt="">
+                        </div>
+                        <div class="b13__btn">Консультация в WhatsApp</div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1u8qaJ-ghay6Xm-AKzmb1RxsTCbZEk8Hd" width="100%"
+                        height="650"></iframe>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+        <div class="footer__left-block">Франшиза по переоборудованию </div>
+        <div class="footer__middle-block"></div>
+        <div class="footer__right-block">
+            <p>© 2021, Разработка сайтов</p>
+            <p><a href="">Политика конфиденциальности</a></p>
+        </div>
+    </div>
+    </div>
+</footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+
+</body>
+
+
+
+</html>
